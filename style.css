@@ -131,3 +131,58 @@ a:active{    text-decoration: none;
 }
 
 
+@media screen and (max-width: 768px) {
+
+    .dropdown{
+        text-shadow: 1px 1px #333;
+        color: #ffffff;
+        padding: 50px;
+        font-size: 16px;
+        letter-spacing: 10px;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+h5{
+    text-shadow: 1px 1px #333;
+    color: #333;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+h6 {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-shadow: 1px 1px #333;
+    }
+    
+    a{    color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 19px;
+        border-radius: 50px;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 22px;
+        border: 1px solid #EE6F70;
+        text-decoration: none;}
+    a:hover{ text-decoration: none;}
+    a:link{       text-decoration: none;
+    }
+    a:active{    text-decoration: none;
+    }
+    
+}
